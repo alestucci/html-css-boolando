@@ -53,8 +53,8 @@ main {
 }
 
 .img-item:hover {
-    /* z-index: 1; */
-    display: none;
+    z-index: 1;
+    /* display: none; */
 }
 
 .fav {
