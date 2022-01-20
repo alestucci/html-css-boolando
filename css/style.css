@@ -17,17 +17,35 @@ main {
 }
 
 .photo-item {
-    background-color: blue;
+    /* background-color: blue; */
     height: 100%;
     width: 100%;
     position: absolute;
 }
 
 .photo-hover {
-    background-color: red;
+    /* background-color: red; */
     height: 100%;
     width: 100%;
     position: relative;
 }
 
-.photo-item:hover 
+.img-hover,
+.img-item {
+    width: 100%;
+}
+
+.img-item {
+    position: relative;
+    z-index: 3;
+}
+
+.img-hover {
+    position: absolute;
+    z-index: 2;
+}
+
+.img-item:hover {
+    /* z-index: 1; */
+    display: none;
+}
