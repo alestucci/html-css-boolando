@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1510px;
+    margin: 0 auto;
+}
+
+.item {
+    display: inline-block;
+    margin: 1.75em 0.6em 2em;
+    height: 690px;
+    width: 480px;
+}
+
+.photo-item {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.photo-hover {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.photo-item:hover 
